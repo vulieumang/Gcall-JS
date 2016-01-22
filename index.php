@@ -8,6 +8,9 @@
 	// put your Twilio Application Sid here
 	$appSid     = 'AP49247f1fa0b6d92638aa2dbf9049682b';
 	
+	//Account signin in App
+	$callAccount     = 'gcall';
+	
 	$capability = new Services_Twilio_Capability($accountSid, $authToken);
 	$capability->allowClientOutgoing($appSid);
 	$capability->allowClientIncoming('jenny');
@@ -101,7 +104,7 @@
     jQuery("#mainbtn").removeClass("call");
     jQuery("#mainbtn").addClass("connecting");
     params = {
-	"PhoneNumber": "gcall"
+	"PhoneNumber": "<?php echo $callAccount; ?>"
     };
     //params = {"PhoneNumber": "+84989640802"};
     Twilio.Device.connect(params);

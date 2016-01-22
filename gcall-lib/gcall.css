@@ -1,0 +1,98 @@
+#btn-gcall{	
+	/*  width: 250px;		
+		min-height: 40px;		
+	position: fixed; */	
+    /* background: url(../images/toTop.png) 0 0 no-repeat; */	
+	/*    cursor: pointer;		
+		bottom: 10%;		
+	right: 10px; */	
+    /* -ms-filter: "alpha(opacity=50)"; */	
+    /* filter: alpha(opacity=20); */	
+    /* -moz-opacity: 0.5; */	
+    /* -khtml-opacity: 0.5; */	
+    /* opacity: 0.5; */	
+	/*z-index: 999;*/	
+top:auto !important;
+	text-align:center;		background-color: rgba(255, 255, 255, 0.7);    border-top-left-radius: 10px;    bottom: 0;    cursor: pointer;    margin-bottom: 0;    min-height: 40px;    padding: 1%;    position: fixed;    right: 0;    text-align: center;    /* width: 250px; */    z-index: 999999;	
+	cursor: pointer;
+}
+#btn-gcall .call{	
+	background: url(assets/btn-gcall.png) 0 0 no-repeat;	
+	height:80px;	
+	width:80px;	
+	background-size:100% auto;	
+	border: medium none;	
+	float:right;		
+	cursor: pointer;
+}
+.connecting{	
+	width: 100px;	
+	height: 100px;	
+	margin: 2% auto;	
+	background: url('assets/spriteload2.png') left center;	
+    animation: play 2s steps(6) infinite;	
+	border:none;		
+}
+.callphone{	
+	background: url(assets/callphone.png) 0 0 no-repeat;	
+	height:55px;	
+	width:55px;	
+	background-size:100% auto;	
+	border: medium none;	
+	float:left;	
+	display:none;	
+	line-height: 9;	
+	padding:0;	
+cursor: pointer;
+}
+.hangup{	
+	background: url(assets/hangup.png) 0 0 no-repeat;	
+	height:55px;	
+	width:55px;	
+	background-size:100% auto;	
+	border: medium none;	
+	float:right;	
+	display:none;	
+	line-height: 9;	
+	padding:0;
+cursor: pointer;	
+}
+#log{	
+	border:2px solid #673091;	
+	color:#673091;	
+	margin:5px auto 10px;	
+	display:none;	padding: 0 5px;
+}
+@keyframes play {	
+	100% { background-position: -600px; }	
+}
+
+.minilogo {	
+	width: 48px;	
+	height: 48px;	
+	margin: 2% auto;	
+	background: url('assets/logo-full2.png') left center;	
+	animation: loading 1.5s steps(4) infinite;	
+}
+.minilogo2 {	
+	width: 300px;	
+	height: 300px;	
+	margin: 8% auto;	
+	background: url('assets/logo-300.png') left center;	
+	animation: loading2 1s steps(4) infinite;	
+}
+
+@keyframes loading {	
+	100% { background-position: -194px; }	
+}
+@keyframes loading2 {	
+	100% { background-position: -1208px; }	
+}
+
+
+#freemium-footer-iframe{
+display:none;
+}
+.user-interaction-normal{
+padding-bottom:0 !important;
+}
