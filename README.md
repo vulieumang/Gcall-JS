@@ -1,11 +1,10 @@
 # Gcall-JS
 Embed script tag in your client
 
-<pre><script type="text/javascript" src="//static.twilio.com/libs/twiliojs/1.2/twilio.min.js"></script></pre>
-<pre><script type="text/javascript" src="https://api.gcall.vn/?webid=1"></script></pre>
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
+<pre><code>
+&lt;script type="text/javascript" src="//static.twilio.com/libs/twiliojs/1.2/twilio.min.js">&lt;/script&gt;
+&lt;script type="text/javascript" src="https://api.gcall.vn/?webid=1"&gt;&lt;/script&gt;
+</code></pre>
+
 
 webid parameter is website id
