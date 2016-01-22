@@ -1,4 +1,8 @@
-# Gcall-JS
+# Gcall-Server
+Upload to your server support HTTPS
+Will render like 
+https://api.gcall.vn/?webid=yourid
+
 Embed script tag in your client head tag
 
 <pre><code>
